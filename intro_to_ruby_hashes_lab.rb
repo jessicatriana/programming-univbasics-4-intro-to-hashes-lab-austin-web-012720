@@ -4,6 +4,9 @@ end
 
 def my_hash
   my_hash = {
+    name: "Jessica",
+    age: 29,
+  }
 end
 
 def pioneer
