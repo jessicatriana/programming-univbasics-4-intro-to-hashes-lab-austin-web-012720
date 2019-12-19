@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  my_hash = {
+  person = {
     name: "Jessica",
     age: 29,
   }
