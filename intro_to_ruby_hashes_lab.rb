@@ -37,12 +37,12 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  
   if hash[key]
     hash[key]+=1 
     return hash
   else
-    return hash[key] = 1
+   hash[key] = 1
+   return hash
   end
   
   # given a hash an a key as parameters, return an updated hash
