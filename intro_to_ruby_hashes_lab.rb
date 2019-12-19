@@ -40,7 +40,7 @@ def update_counting_hash(hash, key)
   myhash = {}
   if hash[key]
     hash[key]+=1 
-    return myhash
+    return hash
   else
     return hash[key] = 1
   end
