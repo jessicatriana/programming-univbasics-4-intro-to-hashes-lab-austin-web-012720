@@ -11,7 +11,7 @@ end
 
 def pioneer
   pioneer = {
-    name: "Grace",
+    name: "Grace Hopper",
   }
 end
 
